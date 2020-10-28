@@ -185,7 +185,7 @@ header {
   
   70% {
     
-    color: #2980b9;
+    color: #00CED1;
   }
   80% {
  
@@ -194,12 +194,12 @@ header {
   
   90% {
  
-    color: #2980b9;
+    color: #ADD8E6;
   }
   
   100% {
     
-    color: pink;
+    color: #F08080;
   }
 }
 
