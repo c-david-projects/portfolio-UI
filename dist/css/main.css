@@ -143,7 +143,65 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #48e1a8; }
+  color: #48e1a8;
+  -webkit-animation:colorchange 350s infinite alternate;
+}
+
+@-webkit-keyframes colorchange {
+  0% {
+    
+    color:#1abc9c;
+  }
+  
+  10% {
+    
+    color: #8e44ad;
+  }
+  
+  20% {
+    
+    color: #1abc9c;
+  }
+  
+  30% {
+    
+    color: lime;
+  }
+  
+  40% {
+    
+    color: #1abc9c;
+  }
+  
+  50% {
+    
+    color: #34495e;
+  }
+  
+  60% {
+    
+    color: #1abc9c;
+  }
+  
+  70% {
+    
+    color: #2980b9;
+  }
+  80% {
+ 
+    color: #f1c40f;
+  }
+  
+  90% {
+ 
+    color: #2980b9;
+  }
+  
+  100% {
+    
+    color: pink;
+  }
+}
 
 main {
   padding: 4rem;
@@ -169,7 +227,8 @@ main {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
-    border: #48e1a8 3px solid; }
+    /* border: #48e1a8 3px solid; */
+   }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
