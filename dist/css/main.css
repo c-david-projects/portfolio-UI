@@ -175,7 +175,7 @@ header {
   
   50% {
     
-    color: #34495e;
+    color: #87CEEB;
   }
   
   60% {
@@ -227,7 +227,7 @@ main {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
-    /* border: #48e1a8 3px solid; */
+    border: white 3px solid;
    }
   .about-info .bio {
     grid-area: bio;
